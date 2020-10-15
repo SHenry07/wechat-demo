@@ -1,0 +1,190 @@
+.hmly-swiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 15rpx
+}
+.hmly-swiper-container {
+  width: 90%;
+  height: 280rpx;
+  margin: 0rpx auto;
+  position: relative;
+  border-radius: 15rpx;
+  overflow: hidden
+}
+.hmly-swiper-item,
+.hmly-swiper-item>image {
+  width: 100%;
+  height: 100%;
+  border-radius: 15rpx
+}
+.hmly-dots {
+  width: auto;
+  height: 10rpx;
+  position: absolute;
+  bottom: 20rpx;
+  border-radius: 50rpx;
+  left: 240rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rpx 10rpx
+}
+.hmly-dots-item {
+  width: 8rpx;
+  height: 8rpx;
+  margin: 0rpx 8rpx;
+  border-radius: 50%;
+  background-color: #cdcdcd;
+  transition: .3s
+}
+.hmly-dot-active {
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #fff
+}
+.hmly-content-list {
+  width: 90%;
+  margin: 10rpx auto 0rpx
+}
+.hmly-content {
+  width: 100%;
+  height: auto;
+  padding: 20rpx 0rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #f1f1f1
+}
+.hmly-content-img {
+  width: 232rpx;
+  height: 232rpx;
+  border-radius: 15rpx
+}
+.hmly-content-img > image {
+  width: 100%;
+  height: 100%;
+  border-radius: 15rpx
+}
+.hmly-content-right {
+  width: 530rpx;
+  height: 100%;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column
+}
+.hmly-content-title {
+  width: 100%;
+  height: 138rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column
+}
+.hmly-introduction,
+.hmly-title-text {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%
+}
+.hmly-title-text {
+  font-size: 35rpx;
+  color: #333;
+  -webkit-line-clamp: 1
+}
+.hmly-introduction {
+  font-size: 28rpx;
+  color: #cdcdcd;
+  padding: 15rpx 0rpx;
+  -webkit-line-clamp: 2
+}
+.hmly-ji-count,
+.hmly-play-count {
+  font-size: 25rpx;
+  color: #cdcdcd
+}
+.hmly-count {
+  width: 100%;
+  height: 50rpx;
+  display: flex;
+  justify-content: start;
+  align-items: center
+}
+.hmly-play-count {
+  margin-right: 30rpx
+}
+.hmly-login-button,
+.hmly-logo {
+  margin: 0rpx auto;
+  position: relative
+}
+.hmly-logo {
+  width: 128rpx;
+  height: 128rpx;
+  top: 200rpx
+}
+.hmly-logo-img {
+  width: 100%;
+  height: 100%
+}
+.hmly-login-button {
+  width: 80%;
+  top: 500rpx
+}
+.hmly-wechat-login,
+.phone-login {
+  width: 100%;
+  height: 80rpx;
+  border-radius: 50rpx;
+  border: 0rpx;
+  outline: 0
+}
+.hmly-wechat-login button {
+  background-color: #70e500;
+  border-radius: 50rpx;
+  border: none;
+  color: #fff
+}
+.hmly-phone-login {
+  margin-top: 40rpx
+}
+.hmly-phone-login button {
+  border-radius: 50rpx;
+  border: 1rpx solid #70e500;
+  background-color: #fff;
+  color: #70e500
+}
+.hmly-cover {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9000;
+  background: rgba(0,0,0,.6);
+  opacity: .7
+}
+.hmly-margin-top-bottom {
+  margin-top: 20rpx;
+  margin-bottom: 30rpx
+}
+.hmly-bar-title {
+  width: 100%;
+  height: 56rpx;
+  padding: 20rpx 0rpx;
+  text-align: center
+}
+.hmly-title-left {
+  float: left;
+  font-size: 37rpx;
+  font-family: "Franklin Gothic Medium","Arial Narrow",Arial,sans-serif;
+  font-weight: 800;
+  color: #333
+}
+.hmly-title-right {
+  float: right;
+  font-size: 26rpx;
+  color: #aaa
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/pages/user/user.ts"],"names":[],"mappings":";AAAA;;;;GAIG;AAEH,wEAAwE;AAExE,IAAI,CAAC;IACD,IAAI,EAAE,EAAE;CACX,CAAC,CAAC","file":"user.js","sourcesContent":["/*!\n * Page: pages/user/User\n * License: MIT\n * Created: 2020-10-13 19:52\n */\n\n/* eslint-disable @typescript-eslint/no-object-literal-type-assertion */\n\nPage({\n    data: {},\n});\n"]}

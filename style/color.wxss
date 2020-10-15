@@ -1,0 +1,15 @@
+.bg-gray {
+  background-color: #eee
+}
+.text-black {
+  color: #181818
+}
+.text-red {
+  color: red
+}
+.text-orange {
+  color: orange
+}
+.text-gray {
+  color: #aaa
+}

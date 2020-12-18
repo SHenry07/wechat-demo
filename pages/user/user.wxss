@@ -3,9 +3,36 @@
  * License: MIT
  * Created: 2020-10-13 19:52
  */
+ 
+ .userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+.userinfo-avatar {
+  width: 88rpx;
+  height: 88rpx;
+  margin: 20rpx;
+  border-radius: 30%;
+}
+
+.userinfo-nickname {
+  color: #000000;
+  border: 50%;
+  align-items: center;
+  margin: 50rpx;
+}
+
+
+
 
 .table {
- border: 0px solid darkgray;
+  width: 100%;
+  height: auto;
+  margin-top: 10rpx;
+  font-size: 32rpx;
+  border: 0px solid darkgray;
 }
 .tr {
  display: flex;
